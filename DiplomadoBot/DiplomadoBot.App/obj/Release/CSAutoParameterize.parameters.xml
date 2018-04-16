@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="StorageConnectionString-Web.config Connection String" description="StorageConnectionString Connection String used in web.config by the application to access the database." defaultValue="DefaultEndpointsProtocol=https;AccountName=botcosmo;AccountKey=R1YMnRpiQSyNjEKN9SErn35UahQE75uRy5wO1QDu6unZT104xapw3KOd7ZjT4H7xGxxPtvvrxVKaqxCKmcJhyQ==;TableEndpoint=https://botcosmo.table.cosmosdb.azure.com:443/;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\Apps2018\\DiplomadoBot\\DiplomadoBot\.App\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='StorageConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
